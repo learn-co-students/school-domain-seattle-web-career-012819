@@ -30,7 +30,11 @@ class School
     @roster.each do |grade, name_array|
       @roster[grade] = name_array.sort
     end
-
+  # @roster.each do |grade|
+  #   binding.pry
+  #   @roster[grade].sort
+  # end
+  #@roster.each do |
   end
 
 end
