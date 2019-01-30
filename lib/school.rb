@@ -21,4 +21,12 @@ class School
   def sort
     self.roster.transform_values { |students| students.sort! }
   end
+
+  # def sort
+  #   new_hash = {}
+  #   self.roster.each do |k, v|
+  #     new_hash[k] = v.sort!
+  #   end
+  #   new_hash
+  # end
 end
